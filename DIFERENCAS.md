@@ -9,11 +9,17 @@ Abaixo estão os detalhes do que está diferente em cada parte:
 * **Código Próprio:** Foram definidas apenas as propriedades de cor de fundo, borda arredondada e largura (`background-color`, `border-radius`, `width`).
 * **Gabarito:** Está desse jeito, incluindo regras de espaçamento interno, externo e comportamento de bloco:
   ```css
+  .card{
+            background-color: white;
+            border-radius: 10px; 
+            width: 200px;
+        }
+  ```css
   .card {
-      background-color: white;   
-      border-radius: 10px;      
-      width: 200px;             
-      padding: 15px;            
-      margin: 10px;             
-      display: inline-block;    
+    background-color: white;   
+    border-radius: 10px;      
+    width: 200px;             
+    padding: 15px;            
+    margin: 10px;             
+    display: inline-block;    
   }
