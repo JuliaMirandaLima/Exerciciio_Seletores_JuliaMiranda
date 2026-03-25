@@ -14,12 +14,6 @@ Abaixo estão os detalhes do que está diferente em cada parte:
             border-radius: 10px; 
             width: 200px;
         }
-  ```css
-  .card {
-    background-color: white;   
-    border-radius: 10px;      
-    width: 200px;             
-    padding: 15px;            
-    margin: 10px;             
-    display: inline-block;    
-  }
+
+* **Diferença:** Faltaram as propriedades para espaçamento e alinhamento. Não foi colocado o padding: 15px; (espaçamento interno), o margin: 10px; (espaçamento externo) e o display: inline-block;.
+  
