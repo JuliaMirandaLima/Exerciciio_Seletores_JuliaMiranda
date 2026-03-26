@@ -1,44 +1,70 @@
- body{
-             background-color: #f4f4f4;
-             font-family: Arial, sans-serif;
+body {
+    background-color: #ffe4e8; 
+    font-family: Arial, sans-serif;
+}
 
-        }
+#topo-principal {
+    background-color: #d63384; 
+    color: white;
+    padding: 20px;
+}
 
-        #topo-principal{
-           background-color: #333;
-           color : white;
-           padding: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
 
-        }
+nav ul li a {
+    text-decoration: none;
+    color: #ad1457;
+    font-weight: bold;
+}
 
-        .card{
-            background-color: white;
-            border-radius: 10px; 
-            width: 200px;
-        }
-        
+nav ul li a:hover {
+    color: #ff69b4;
+}
 
-        p span{
-            font-weight: bold;
-            color: blue;
-        }
+nav ul li:nth-child(2) {
+    text-transform: uppercase;
+    color: #ad1457;
+}
 
-        h1,h2{
-            color:#50342c ;
- ;
-        }
+.card {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 15px;           
+    margin: 10px;             
+    display: inline-block;  
+}
 
-        .card.destaque{
-            border: 3px solid gold;
-            transform: scale(1.05);
-        }
+p span {
+    font-weight: bold;
+    color: #c2185b; 
+}
 
-        button:hover{
-            background-color: #27ae60 ;
-            cursor: pointer;
-        }
+h1, h2 {
+    color: #6a1b9a; 
+}
 
-        nav ul li:nth-child(2){
-            text-transform: uppercase;
+.card.destaque {
+    border: 3px solid #ff69b4; 
+    transform: scale(1.05);
+}
 
-        }
+button {
+    background-color: #f06292;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e91e63; 
+    cursor: pointer;
+}
