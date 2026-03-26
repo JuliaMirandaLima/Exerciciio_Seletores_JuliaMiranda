@@ -15,5 +15,5 @@ Abaixo estão os detalhes do que está diferente em cada parte:
             width: 200px;
         }
 
-* **Diferença:** Faltaram as propriedades para espaçamento e alinhamento. Não foi colocado o padding: 15px; (espaçamento interno), o margin: 10px; (espaçamento externo) e o display: inline-block;.
+* **Diferença:**No meu código foram definidas apenas a cor de fundo, as bordas arredondadas e a largura. No gabarito, foram adicionadas regras de espaçamento interno (padding: 15px;) e externo (margin: 10px;). Além disso, não foi colocada no meu código a propriedade display: inline-block;, que é fundamental no gabarito para fazer com que os cards fiquem alinhados um ao lado do outro na tela, em vez de empilhados.
   
